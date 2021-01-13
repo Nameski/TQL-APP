@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="transfer_name">
+        <item>antimonocromatismo</item>
+        <item>asheville</item>
+        <item>brushstrokes</item>
+        <item>impronte_d_artista</item>
+        <item>la_muse</item>
+        <item>mondrian</item>
+        <item>picasso_self_portrait</item>
+        <item>sketch</item>
+        <item>the_resevoir_at_poitiers</item>
+        <item>woman_in_peasant_dress_cropped</item>
+    </array>
+</resources>

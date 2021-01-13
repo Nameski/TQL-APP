@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".My">
+    <com.e.tql.CustomToolBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:left_btn_src="@drawable/ic_tuku"
+        app:left_btn_visible="false"
+        app:right_btn_src="@drawable/ic_photo"
+        app:right_btn_visible="false"
+        app:title_text="图麒麟"
+        app:title_visible="true">
+
+        <Button
+            android:id="@+id/intent_login"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="登录"/>
+
+        <com.e.tql.BottomMenuView
+            android:id="@+id/bmv_list_my"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+        </com.e.tql.BottomMenuView>
+    </com.e.tql.CustomToolBar>
+</LinearLayout>
